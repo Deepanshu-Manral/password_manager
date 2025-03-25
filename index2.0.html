@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassSuraksha - Your Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://media.istockphoto.com/id/1952644543/photo/cyber-security-internet-concept-3d-lock-with-key-and-protection-shield-networking-safety.jpg?s=612x612&w=0&k=20&c=ExgW03FB60mPy0wvc5SohDKzxFK67yGWM1f3AoTQzNE=">
+</head>
+
+<body bgcolor="F9EFDB">
+    <nav style="justify-content: space-between;">
+        <div class="logo" style="color: #750E21; font-weight: bolder; font-family: Lucida Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><h2>PassSuraksha</h2></div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div id="slide" style="background-color: #A1EEBD;">
+        <marquee behavior="scroll" direction="left" scrollamount="12">HALLO FREUNDE! This is a demo project of password manager build by the students of the respected college Dronacharya Group of Institutions. Edit: This is a clone repository. Credit source: codewithHarry.</marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="20"><pre>Students participation for building this webpage: 3                                                 Deepanshu Manral(17355),                                       Shivam Kumar Jha(17363),                                       Shivankar Upadhyaya(17364)</pre></marquee>
+        </div>
+    <div class="container">
+        <h1 style="color: #E36414;">Password Manager</h1>
+        <p>Unlock a world of worry-free online protection with us. Safeguard your digital life with ease and peace of
+            mind. Start your journey to password perfection today!</p>
+        <h2 style="color: #E36414;">Your Passwords</h2>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+            
+        </table>
+
+        <h2 style="color: #E36414;">Add Passwords</h2>
+        <form action="/submit" method="post">
+            <!-- Text input for website -->
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Enter your username" id="username" name="username" required>
+            <br><br>
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+
+            <!-- Submit button -->
+            <button class="btn" type="submit" style="background-color: #65B741;">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+        
